@@ -1,0 +1,31 @@
+
+
+
+
+.layout {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.layout-content-area {
+    flex-grow: 1;
+}
+
+.header {
+    height: 70px;
+    box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.179) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0 2em;
+}
+
+.sidebar-toggle {
+    cursor: pointer;
+}
+
+.header-menu-btn {
+    cursor: pointer;
+}
