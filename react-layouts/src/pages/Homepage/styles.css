@@ -1,0 +1,94 @@
+
+
+
+
+
+.homepage {
+
+}
+
+.hp-landing {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.hp-landing-content {
+    width: 50%;
+}
+
+.hpl-top-row {
+    display: flex;
+    justify-content: center;
+}
+
+.hpl-chip {
+    background-color: #DEDEDE;
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.hpl-hero-text-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.hpl-hero-text {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.hpl-sub-text-row {
+    display: flex;
+    justify-content: center;
+}
+
+.hpl-sub-text-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 1em;
+}
+
+.hpl-sub-text {
+    color: #6c757d;
+    font-size: 18px;
+    text-align: center;
+}
+
+.homepage-body {
+    background-color: #F9F9F9;
+    min-height: 1000px;
+}
+
+.hpl-button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.hpl-btn {
+    all: unset;
+    background-color: #1890ff;
+    padding: 6px 15px;
+    margin: 0px 8px;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.hpl-btn:hover {
+    cursor: pointer;
+    background-color: #1478d5;
+}
+
+.hpl-btn-text {
+    font-size: 12px;
+}
