@@ -3,9 +3,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import Homepage from "../pages/Homepage";
 import ErrorBoundary from "../components/ErrorBoundary";
-import LayoutOne from "../pages/LayoutOne";
+import LayoutOne from "../layouts/LayoutOne";
 import Dashboard from "../pages/Dashboard";
-import LayoutTwo from "../pages/LayoutTwo";
+import LayoutTwo from "../layouts/LayoutTwo";
 
 
 
