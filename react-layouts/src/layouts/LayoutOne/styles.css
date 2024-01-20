@@ -29,3 +29,51 @@
 .header-menu-btn {
     cursor: pointer;
 }
+
+.sidebar {
+    background-color: #000;
+    color: #fff;
+}
+
+.sb-top {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-square {
+    border: 1px solid #fff;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-sq-txt {
+    font-size: 14px;
+    margin: 0.5em;
+}
+
+.logo-right-text {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.v-logo-divider-container {
+    padding: 0 1em;
+}
+
+.v-logo-divider {
+    height: 2em;
+    border-right: 1px solid #fff;
+}
+
+.logo-right-container {
+    display: flex;
+    align-items: center;
+}

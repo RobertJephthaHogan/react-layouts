@@ -19,13 +19,28 @@ export default function Sidebar(props: SidebarProps) {
 
     return (
         <div
-            style={{
+            style={{ // dynamically set sidebar width
                 width,
-                backgroundColor: "#000",
-                color: "#fff"
             }}
+            className='sidebar'
         >
-            Sidebar
+            <div className='sb-top'>
+                <div className='logo'>
+                    <div className='logo-square'>
+                        <span className='logo-sq-txt'>
+                            RL
+                        </span>
+                    </div>
+                    <div className='v-logo-divider-container'>
+                        <div className='v-logo-divider'/>
+                    </div>
+                    <div className='logo-right-container'>
+                        <span className='logo-right-text'>
+                            React Layouts
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
