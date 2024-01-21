@@ -1,0 +1,126 @@
+
+
+
+
+.layout {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.layout-content-area {
+    flex-grow: 1;
+}
+
+.header {
+    height: 70px;
+    box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.179) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0 2em;
+}
+
+.sidebar-toggle {
+    cursor: pointer;
+}
+
+.header-menu-btn {
+    cursor: pointer;
+}
+
+.sidebar {
+    background-color: #000;
+    color: #fff;
+}
+
+.sb-top {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-square {
+    border: 1px solid #fff;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-sq-txt {
+    font-size: 14px;
+    margin: 0.5em;
+}
+
+.logo-right-text {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.v-logo-divider-container {
+    padding: 0 1em;
+}
+
+.v-logo-divider {
+    height: 2em;
+    border-right: 1px solid #fff;
+}
+
+.logo-right-container {
+    display: flex;
+    align-items: center;
+}
+
+.sb-menu-container {
+    padding-top: 2em;
+    padding-left: 1em;
+}
+
+.sb-menu-title {
+    color: #A1A1A1;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.sb-menu-option-container {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.sb-m-item-title {
+    font-size: 14px;
+    margin-left: 1em;
+}
+
+.sb-menu-item {
+    margin: 0.5em 0;
+    cursor: pointer;
+}
+
+.sq-top-collapsed {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em
+}
+
+.sb-menu-container-collapsed {
+    margin-top: 2em;
+}
+
+.sb-collapsed-menu-item {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0;
+}
+
+.sb-collapsed-menu-item:hover {
+    background-color: #282828;
+    cursor: pointer;
+}
