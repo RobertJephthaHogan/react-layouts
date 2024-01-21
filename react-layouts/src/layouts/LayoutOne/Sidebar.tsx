@@ -1,4 +1,7 @@
 import React, { useMemo } from 'react'
+import DashboardOutlined from '@ant-design/icons/DashboardOutlined'
+import UserOutlined from '@ant-design/icons/UserOutlined'
+import InboxOutlined from '@ant-design/icons/InboxOutlined'
 
 
 
@@ -24,23 +27,59 @@ export default function Sidebar(props: SidebarProps) {
             }}
             className='sidebar'
         >
-            <div className='sb-top'>
-                <div className='logo'>
-                    <div className='logo-square'>
-                        <span className='logo-sq-txt'>
-                            RL
-                        </span>
+            {
+                props.isCollapsed
+                ? 'todo'
+                : (
+                    <div>
+                        <div className='sb-top'>
+                            <div className='logo'>
+                                <div className='logo-square'>
+                                    <span className='logo-sq-txt'>
+                                        RL
+                                    </span>
+                                </div>
+                                <div className='v-logo-divider-container'>
+                                    <div className='v-logo-divider'/>
+                                </div>
+                                <div className='logo-right-container'>
+                                    <span className='logo-right-text'>
+                                        React Layouts
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='sb-menu-container'>
+                            <div className='sb-menu-title-row'>
+                                <span className='sb-menu-title'>
+                                    Menu
+                                </span>
+                            </div>
+                            <div className='sb-menu-option-container'>
+                                <div className='sb-menu-item'>
+                                    <DashboardOutlined/>
+                                    <span className='sb-m-item-title'>
+                                        Dashboard
+                                    </span>
+                                </div>
+                                <div className='sb-menu-item'>
+                                    <UserOutlined/>
+                                    <span className='sb-m-item-title'>
+                                        Contacts
+                                    </span>
+                                </div>
+                                <div className='sb-menu-item'>
+                                    <InboxOutlined/>
+                                    <span className='sb-m-item-title'>
+                                        Inbox
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className='v-logo-divider-container'>
-                        <div className='v-logo-divider'/>
-                    </div>
-                    <div className='logo-right-container'>
-                        <span className='logo-right-text'>
-                            React Layouts
-                        </span>
-                    </div>
-                </div>
-            </div>
+                )
+            }
+            
         </div>
     )
 }
