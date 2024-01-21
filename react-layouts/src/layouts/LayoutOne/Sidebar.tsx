@@ -29,7 +29,28 @@ export default function Sidebar(props: SidebarProps) {
         >
             {
                 props.isCollapsed
-                ? 'todo'
+                ? (
+                    <div>
+                        <div className='sq-top-collapsed'>
+                            <div className='logo-square'>
+                                <span className='logo-sq-txt'>
+                                    RL
+                                </span>
+                            </div>
+                        </div>
+                        <div className='sb-menu-container-collapsed'>
+                            <div className='sb-collapsed-menu-item'>
+                                <DashboardOutlined/>
+                            </div>
+                            <div className='sb-collapsed-menu-item'>
+                                <UserOutlined/>
+                            </div>
+                            <div className='sb-collapsed-menu-item'>
+                                <InboxOutlined/>
+                            </div>
+                        </div>
+                    </div>
+                )
                 : (
                     <div>
                         <div className='sb-top'>
